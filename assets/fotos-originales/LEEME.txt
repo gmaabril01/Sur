@@ -1,0 +1,5 @@
+Deja aquí las fotos reales del local (JPG, PNG o HEIC del móvil), con nombres claros:
+fachada, vitrina, interior, helado, cafe, equipo...
+
+Después se optimizan, se guardan en assets/img/ y se colocan en su hueco de la web.
+Esta carpeta no hace falta subirla al hosting.
