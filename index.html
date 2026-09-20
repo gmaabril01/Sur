@@ -1,0 +1,766 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SUR Helado | Café · Heladería y cafetería en Teatinos, Málaga</title>
+  <meta name="description" content="Heladería y cafetería familiar con terraza en Calle Pirandello, 8, Teatinos-Universidad (Málaga). Helado de vitrina, café, desayunos, croffles, tartas y smoothies. Carta, horario y ubicación.">
+
+  <!-- BORRADOR: quitar esta línea al publicar la web en su dominio definitivo, para que Google pueda indexarla. -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- PENDIENTE: dominio definitivo. Cuando lo tengáis, descomentad y completad:
+  <link rel="canonical" href="https://DOMINIO/">
+  <meta property="og:url" content="https://DOMINIO/">
+  <meta property="og:image" content="https://DOMINIO/assets/img/fachada.jpg">
+  -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta property="og:title" content="SUR Helado | Café — Teatinos, Málaga">
+  <meta property="og:description" content="Heladería y cafetería familiar con terraza en Calle Pirandello, 8, Teatinos-Universidad, Málaga.">
+  <meta name="theme-color" content="#f7f4ee">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/img/fachada.jpg" fetchpriority="high">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Shantell+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css?v=20260919b">
+
+  <!-- Datos para Google. PENDIENTE: añadir "telephone" y "url" cuando estén confirmados. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["IceCreamShop", "CafeOrCoffeeShop"],
+    "name": "SUR Helado | Café",
+    "image": "assets/img/fachada.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Pirandello, 8",
+      "addressLocality": "Málaga",
+      "addressRegion": "Málaga",
+      "postalCode": "29010",
+      "addressCountry": "ES"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 36.7174641, "longitude": -4.4621504 },
+    "hasMap": "https://www.google.es/maps/place/Sur+-+Helado+Cafe/@36.7171146,-4.4614703,17z/data=!4m8!3m7!1s0xd72f73aa2c39bc7:0x107b341df85c6883!8m2!3d36.7174641!4d-4.4621504!9m1!1b1!16s%2Fg%2F11m5c_n0s_?hl=es",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "11:00", "closes": "23:59" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "20:00" }
+    ],
+    "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Terraza", "value": true }],
+    "servesCuisine": ["Helados", "Café", "Desayunos", "Repostería"],
+    "sameAs": ["https://www.instagram.com/surheladocafe/"]
+  }
+  </script>
+
+  <script defer src="main.js?v=20260919b"></script>
+</head>
+<body class="is-draft">
+  <a class="skip-link" href="#contenido" data-en="Skip to content">Saltar al contenido</a>
+
+  <!-- ===== Iconos ===== -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="ic-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="ic-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.6" fill="currentColor"/></symbol>
+    <symbol id="ic-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4.2-1.9 1.3a11.6 11.6 0 0 0 6.3 6.3l1.3-1.9 4.2 1.4v2.6a2 2 0 0 1-2.1 2A16.5 16.5 0 0 1 4.6 5.6a2 2 0 0 1 2-2.1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="ic-chat" viewBox="0 0 24 24"><path d="M4 20l1.2-3.9A8.5 8.5 0 1 1 8 19l-4 1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+    <symbol id="ic-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="ic-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.8l-5.4 2.9 1.1-6.1-4.5-4.2 6.1-.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="ic-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="ic-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 11v5.5M12 7.6v.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="ic-cone" viewBox="0 0 24 24"><path d="M7.5 11h9L12.6 21.2a.7.7 0 0 1-1.2 0Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6.6 11a5.4 5.4 0 1 1 10.8 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="ic-quote" viewBox="0 0 24 24"><path d="M10 7c-3.3.6-5 2.9-5 6.2V18h5v-5H7.6c0-1.8.9-3 2.4-3.4Zm9 0c-3.3.6-5 2.9-5 6.2V18h5v-5h-2.4c0-1.8.9-3 2.4-3.4Z" fill="currentColor"/></symbol>
+    <symbol id="ic-google" viewBox="0 0 24 24"><path d="M20.6 12.2c0-.6-.1-1.2-.2-1.8H12v3.4h4.8a4.1 4.1 0 0 1-1.8 2.7v2.2h2.9c1.7-1.6 2.7-3.9 2.7-6.5Z" fill="currentColor"/><path d="M12 21c2.4 0 4.5-.8 5.9-2.2L15 16.5c-.8.5-1.8.9-3 .9a5.2 5.2 0 0 1-4.9-3.6H4.1V16A9 9 0 0 0 12 21Z" fill="currentColor" opacity=".75"/><path d="M7.1 13.8a5.3 5.3 0 0 1 0-3.5V8H4.1a9 9 0 0 0 0 8Z" fill="currentColor" opacity=".55"/><path d="M12 6.6c1.3 0 2.5.5 3.4 1.3l2.6-2.6A9 9 0 0 0 4.1 8l3 2.3A5.2 5.2 0 0 1 12 6.6Z" fill="currentColor" opacity=".85"/></symbol>
+  </svg>
+
+  <!-- ===== Cabecera ===== -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <!-- PENDIENTE: sustituir por el logotipo oficial en cuanto lo tengamos (SVG o PNG) -->
+      <a class="brand" href="#inicio" aria-label="SUR Helado | Café" data-en-label="SUR Helado | Café, back to top">
+        <span class="brand-word">SUR</span>
+        <span class="brand-sub">Helado | Café</span>
+      </a>
+
+      <nav class="nav" aria-label="Principal" data-en-label="Main">
+        <ul class="nav-list" id="menu-principal" data-nav-menu>
+          <li><a href="#carta" data-en="Menu">Carta</a></li>
+          <li><a href="#opiniones" data-en="Reviews">Opiniones</a></li>
+          <li><a href="#local" data-en="The place">El local</a></li>
+          <li><a href="#horario" data-en="Opening hours">Horario</a></li>
+          <li><a href="#ubicacion" data-en="Location">Ubicación</a></li>
+          <li><a href="#contacto" data-en="Contact">Contacto</a></li>
+          <li class="nav-cta-mobile"><a class="btn btn-green" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle%20Pirandello%2C%208%2C%2029010%20M%C3%A1laga" target="_blank" rel="noopener" data-en="Get directions">Cómo llegar</a></li>
+        </ul>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+
+      <a class="btn btn-small btn-green header-cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle%20Pirandello%2C%208%2C%2029010%20M%C3%A1laga" target="_blank" rel="noopener" data-en="Get directions">Cómo llegar</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" data-nav-toggle>
+        <span class="sr-only" data-nav-toggle-label>Abrir menú</span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ===== Portada ===== -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker hero-in" style="--d:0">
+            <svg aria-hidden="true"><use href="#ic-cone"/></svg>
+            <span data-en="Ice cream parlour &amp; café · Teatinos, Málaga">Heladería y cafetería · Teatinos, Málaga</span>
+          </p>
+          <h1 class="hero-title hero-in" style="--d:1" data-en-html="Cold ice cream,&lt;br&gt;hot coffee&lt;br&gt;and a &lt;em&gt;terrace&lt;/em&gt;.">
+            Helado frío,<br>café caliente<br>y <em>terraza</em>.
+          </h1>
+          <p class="hero-sub hero-in" style="--d:2" data-en="A family-run ice cream parlour and café in Teatinos-Universidad: breakfast, croffles, cakes and ice cream from the display case. On Calle Pirandello, 8.">
+            Heladería y cafetería familiar en Teatinos-Universidad: desayunos, croffles, tartas y helado de vitrina. En la calle Pirandello, 8.
+          </p>
+          <div class="hero-actions hero-in" style="--d:3">
+            <a class="btn btn-green" href="#carta"><span data-en="See the menu">Ver la carta</span> <svg aria-hidden="true"><use href="#ic-arrow"/></svg></a>
+            <a class="btn btn-ghost" href="#ubicacion"><svg aria-hidden="true"><use href="#ic-pin"/></svg> <span data-en="Find us">Dónde estamos</span></a>
+          </div>
+          <div class="hero-meta hero-in" style="--d:4">
+            <span class="open-badge" data-open-badge hidden><span class="open-dot"></span><span data-open-text></span></span>
+            <a class="hero-ig" href="https://www.instagram.com/surheladocafe/" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#ic-instagram"/></svg> @surheladocafe
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual hero-in" style="--d:2">
+          <figure class="hero-photo">
+            <img src="assets/img/fachada.jpg" width="1217" height="778" fetchpriority="high" loading="eager" decoding="async"
+                 alt="Fachada de SUR Helado | Café con su toldo verde, la vitrina de helados al fondo y la terraza con mesas delante"
+                 data-en-alt="SUR Helado | Café storefront with its green awning, the ice cream display case inside and the terrace tables in front">
+          </figure>
+
+          <!-- Ilustración original: pegatina de cucurucho y café -->
+          <svg class="hero-sticker" viewBox="0 0 260 300" aria-hidden="true">
+            <defs>
+              <path id="scoop" d="M-84 12 C-88 -52 -46 -86 0 -86 C46 -86 88 -52 84 12 C80 30 66 32 58 22 C50 38 34 38 28 24 C20 40 2 40 -4 26 C-12 40 -30 40 -36 24 C-44 38 -62 36 -66 22 C-74 32 -84 26 -84 12 Z"/>
+              <clipPath id="coneClip"><path d="M72 172 L168 172 L124 290 Q120 298 116 290 Z"/></clipPath>
+            </defs>
+            <g class="sticker-body">
+              <!-- contorno blanco tipo pegatina -->
+              <g fill="#fffdf9" stroke="#fffdf9" stroke-width="22" stroke-linejoin="round">
+                <path d="M72 172 L168 172 L124 290 Q120 298 116 290 Z"/>
+                <use href="#scoop" transform="translate(120 160) scale(.66)"/>
+                <use href="#scoop" transform="translate(110 108) scale(.58)"/>
+                <use href="#scoop" transform="translate(128 62) scale(.48)"/>
+              </g>
+              <g stroke="#1e2622" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+                <path d="M72 172 L168 172 L124 290 Q120 298 116 290 Z" fill="#dfa866"/>
+                <g clip-path="url(#coneClip)" stroke="#b67d3e" stroke-width="3" opacity=".8" fill="none">
+                  <path d="M40 172 L160 320 M80 172 L200 320 M120 172 L240 320 M0 172 L120 320"/>
+                  <path d="M200 172 L80 320 M160 172 L40 320 M120 172 L0 320 M240 172 L120 320"/>
+                </g>
+                <path d="M72 172 L168 172 L124 290 Q120 298 116 290 Z" fill="none"/>
+                <path class="drip" d="M146 176 C146 194 140 202 143 210 C146 218 156 216 155 207 C154 198 157 190 158 176 Z" fill="#f6dea0"/>
+                <use href="#scoop" transform="translate(120 160) scale(.66)" fill="#f6dea0"/>
+                <use href="#scoop" transform="translate(110 108) scale(.58)" fill="#f2a79c"/>
+                <use href="#scoop" transform="translate(128 62) scale(.48)" fill="#b9cc86"/>
+              </g>
+              <g fill="#fffdf9" opacity=".6">
+                <ellipse cx="98" cy="146" rx="11" ry="6" transform="rotate(-24 98 146)"/>
+                <ellipse cx="92" cy="92" rx="9" ry="5" transform="rotate(-24 92 92)"/>
+                <ellipse cx="114" cy="46" rx="7" ry="4" transform="rotate(-24 114 46)"/>
+              </g>
+              <g>
+                <rect x="96" y="96" width="10" height="4" rx="2" fill="#1e2622" transform="rotate(28 101 98)"/>
+                <rect x="122" y="112" width="10" height="4" rx="2" fill="#fffdf9" transform="rotate(-18 127 114)"/>
+                <rect x="134" y="90" width="10" height="4" rx="2" fill="#4d6f5b" transform="rotate(60 139 92)"/>
+                <rect x="84" y="118" width="10" height="4" rx="2" fill="#f6dea0" transform="rotate(-40 89 120)"/>
+              </g>
+            </g>
+          </svg>
+
+          <figure class="polaroid">
+            <img src="assets/img/tarrinas-perro.jpg" width="215" height="280" loading="eager" decoding="async"
+                 alt="Dos tarrinas de helado de SUR sobre una mesa de la terraza, con un perro mirando"
+                 data-en-alt="Two SUR ice cream tubs on a terrace table, with a dog looking on">
+            <figcaption data-en="On the terrace">En la terraza</figcaption>
+          </figure>
+
+          <!-- Sello giratorio -->
+          <svg class="stamp" viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="stampPath" d="M100,100 m-70,0 a70,70 0 1,1 140,0 a70,70 0 1,1 -140,0"/></defs>
+            <circle cx="100" cy="100" r="98" fill="#4d6f5b"/>
+            <g class="stamp-text">
+              <text fill="#fffdf9" font-size="17.5" font-weight="700" letter-spacing="3.2"><textPath href="#stampPath" textLength="436" lengthAdjust="spacing">HELADO · CAFÉ · TEATINOS · MÁLAGA ·</textPath></text>
+            </g>
+            <text class="stamp-core" x="100" y="112" text-anchor="middle" fill="#f6dea0" font-size="38" font-weight="800">SUR</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Cinta ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span data-en="Ice cream">Helado</span><svg><use href="#ic-cone"/></svg>
+          <span data-en="Coffee">Café</span><svg><use href="#ic-cone"/></svg>
+          <span>Croffles</span><svg><use href="#ic-cone"/></svg>
+          <span data-en="Breakfast">Desayunos</span><svg><use href="#ic-cone"/></svg>
+          <span>Smoothies</span><svg><use href="#ic-cone"/></svg>
+          <span data-en="Cakes">Tartas</span><svg><use href="#ic-cone"/></svg>
+          <span data-en="Terrace">Terraza</span><svg><use href="#ic-cone"/></svg>
+        </div>
+        <div class="marquee-group">
+          <span data-en="Ice cream">Helado</span><svg><use href="#ic-cone"/></svg>
+          <span data-en="Coffee">Café</span><svg><use href="#ic-cone"/></svg>
+          <span>Croffles</span><svg><use href="#ic-cone"/></svg>
+          <span data-en="Breakfast">Desayunos</span><svg><use href="#ic-cone"/></svg>
+          <span>Smoothies</span><svg><use href="#ic-cone"/></svg>
+          <span data-en="Cakes">Tartas</span><svg><use href="#ic-cone"/></svg>
+          <span data-en="Terrace">Terraza</span><svg><use href="#ic-cone"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== Productos ===== -->
+    <section class="section" id="productos" aria-labelledby="productos-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-en="What we do">Lo que hacemos</p>
+          <h2 id="productos-title" data-en-html="From breakfast&lt;br&gt;to the &lt;em&gt;last scoop&lt;/em&gt;.">Del desayuno<br>a la <em>última bola</em>.</h2>
+        </header>
+
+        <div class="product-grid">
+          <article class="product-card reveal" data-tilt>
+            <figure class="product-photo"><img src="assets/img/vitrina-terraza.jpg" width="655" height="785" loading="lazy" decoding="async" style="object-position: 50% 88%" alt="Vitrina de helados de SUR vista desde dentro, con la terraza llena al fondo" data-en-alt="SUR's ice cream display case seen from inside, with the busy terrace behind"></figure>
+            <div class="product-body">
+              <h3 data-en="Ice cream">Helados</h3>
+              <p data-en="Pick your flavours from the display case. Have them as a sundae with sauce and topping, as a milkshake or on top of your croffle.">Elige tus sabores en la vitrina. Tómalo en copa con sirope y topping, en batido o encima de tu croffle.</p>
+              <a class="link-arrow" href="#carta" data-tab-link="helados"><span data-en="See in the menu">Ver en la carta</span> <svg aria-hidden="true"><use href="#ic-arrow"/></svg></a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-tilt>
+            <figure class="product-photo"><img src="assets/img/desayuno.jpg" width="1052" height="618" loading="lazy" decoding="async" style="object-position: 30% 50%" alt="Desayuno en la terraza: bocadillos de pitufo con jamón, café con leche y una porción de cheesecake de pistacho" data-en-alt="Breakfast on the terrace: ham sandwiches, a milky coffee and a slice of pistachio cheesecake"></figure>
+            <div class="product-body">
+              <h3 data-en="Breakfast">Desayunos</h3>
+              <p data-en="Sandwiches on white, multigrain or mollete bread, toasts and coffee. Tuesday to Friday from 9:00.">Bocadillos en pitufo blanco, multicereal o mollete, tostas y café. De martes a viernes desde las 9:00.</p>
+              <a class="link-arrow" href="#carta" data-tab-link="desayunos"><span data-en="See in the menu">Ver en la carta</span> <svg aria-hidden="true"><use href="#ic-arrow"/></svg></a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-tilt>
+            <span class="badge-new" data-en="New">Nuevo</span>
+            <figure class="product-photo product-photo--white"><img src="assets/img/croffles.jpg" width="1400" height="642" loading="lazy" decoding="async" alt="Cuatro croffles: con Lotus, con Nutella y bola de helado, con dulce de leche y plátano, y con Nutella" data-en-alt="Four croffles: Lotus, Nutella with a scoop of ice cream, dulce de leche with banana, and Nutella"></figure>
+            <div class="product-body">
+              <h3>Croffles</h3>
+              <p data-en="A waffle made with croissant dough, with Nutella, dulce de leche, Lotus or pistachio, plus extras of your choice.">Gofre hecho con masa de croissant: con Nutella, dulce de leche, Lotus o pistacho, y los extras que quieras.</p>
+              <a class="link-arrow" href="#carta" data-tab-link="croffles"><span data-en="See in the menu">Ver en la carta</span> <svg aria-hidden="true"><use href="#ic-arrow"/></svg></a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-tilt>
+            <span class="badge-new" data-en="New">Nuevo</span>
+            <figure class="product-photo product-photo--white"><img src="assets/img/tostas.jpg" width="1200" height="625" loading="lazy" decoding="async" alt="Dos tostas: serrana con aguacate y jamón, y de hummus con huevo, tomates y hojas verdes" data-en-alt="Two toasts: Serrana with avocado and ham, and hummus with egg, tomatoes and greens"></figure>
+            <div class="product-body">
+              <h3 data-en="Toasts">Tostas</h3>
+              <p data-en="Serrana, with avocado and Serrano ham, or hummus with boiled egg, confit tomatoes and greens.">Serrana, con aguacate y jamón serrano, o de hummus con huevo cocido, tomates confitados y hojas verdes.</p>
+              <a class="link-arrow" href="#carta" data-tab-link="desayunos"><span data-en="See in the menu">Ver en la carta</span> <svg aria-hidden="true"><use href="#ic-arrow"/></svg></a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-tilt>
+            <figure class="product-photo"><img src="assets/img/smoothies.jpg" width="665" height="787" loading="lazy" decoding="async" alt="Dos smoothies de frutos rojos en tarros con pajita y dos bocadillos integrales en la terraza" data-en-alt="Two berry smoothies in jars with straws and two wholegrain sandwiches on the terrace"></figure>
+            <div class="product-body">
+              <h3 data-en="Smoothies &amp; milkshakes">Smoothies y batidos</h3>
+              <p data-en="Fruit smoothies and ice cream milkshakes, small or large.">Smoothies de fruta y batidos helados, pequeños o grandes.</p>
+              <a class="link-arrow" href="#carta" data-tab-link="bebidas"><span data-en="See in the menu">Ver en la carta</span> <svg aria-hidden="true"><use href="#ic-arrow"/></svg></a>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-tilt>
+            <figure class="product-photo product-photo--white"><img src="assets/img/alfajor.jpg" width="442" height="640" loading="lazy" decoding="async" alt="Unas manos parten un alfajor relleno de dulce de leche sobre un plato verde" data-en-alt="Hands breaking an alfajor filled with dulce de leche over a green plate"></figure>
+            <div class="product-body">
+              <h3 data-en="Cakes &amp; sweets">Tartas y dulces</h3>
+              <p data-en="Alfajores, brownie, super cookie, apple crumble, cheesecakes and marquise. Add a scoop of ice cream for €1.50.">Alfajores, brownie, super cookie, crumble de manzana, tartas de queso y marquise. Con bola de helado por 1,50 €.</p>
+              <a class="link-arrow" href="#carta" data-tab-link="dulces"><span data-en="See in the menu">Ver en la carta</span> <svg aria-hidden="true"><use href="#ic-arrow"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Carta ===== -->
+    <section class="section section--tint" id="carta" aria-labelledby="carta-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-en="Menu">Carta</p>
+          <h2 id="carta-title" data-en-html="The &lt;em&gt;menu&lt;/em&gt;">La <em>carta</em></h2>
+          <p class="section-lead" data-en="Prices in euros.">Precios en euros.</p>
+        </header>
+
+        <div class="menu reveal" data-tabs>
+          <div class="menu-tabs" role="tablist" aria-label="Categorías de la carta" data-en-label="Menu categories">
+            <button class="menu-tab" type="button" role="tab" id="tab-helados" aria-controls="panel-helados" aria-selected="true" data-tab="helados" data-en="Ice cream">Helados</button>
+            <button class="menu-tab" type="button" role="tab" id="tab-cafes" aria-controls="panel-cafes" aria-selected="false" data-tab="cafes" data-en="Coffee">Cafés</button>
+            <button class="menu-tab" type="button" role="tab" id="tab-desayunos" aria-controls="panel-desayunos" aria-selected="false" data-tab="desayunos" data-en="Breakfast">Desayunos</button>
+            <button class="menu-tab" type="button" role="tab" id="tab-croffles" aria-controls="panel-croffles" aria-selected="false" data-tab="croffles">Croffles</button>
+            <button class="menu-tab" type="button" role="tab" id="tab-dulces" aria-controls="panel-dulces" aria-selected="false" data-tab="dulces" data-en="Sweets">Dulces</button>
+            <button class="menu-tab" type="button" role="tab" id="tab-bebidas" aria-controls="panel-bebidas" aria-selected="false" data-tab="bebidas" data-en="Drinks">Bebidas</button>
+          </div>
+
+          <!-- ---------- Helados ---------- -->
+          <div class="menu-panel" role="tabpanel" id="panel-helados" aria-labelledby="tab-helados" data-panel="helados">
+            <h3 class="menu-panel-title" data-en="Ice cream">Helados</h3>
+            <div class="menu-cols">
+              <div>
+                <div class="menu-feature">
+                  <div class="menu-feature-head">
+                    <h4 class="menu-sub" data-en="Ice cream sundae">Copas heladas</h4>
+                    <span class="menu-price">6,50 €</span>
+                  </div>
+                  <ol class="steps">
+                    <li><strong data-en="3 scoops of ice cream">3 bolas de helado</strong> <span data-en="choose your flavours from the display case">elige de nuestra vitrina</span></li>
+                    <li><strong data-en="Sauce of your choice">Sirope a elección</strong> <span data-en="chocolate, strawberry, dulce de leche, Nutella, caramel, salted caramel, pistachio">chocolate, fresa, dulce de leche, Nutella, caramelo, caramelo salado, pistacho</span></li>
+                    <li><strong data-en="Topping of your choice">Topping a elección</strong> <span data-en="walnuts, Lacasitos, Oreo, Lotus, brownie pieces">nueces, Lacasitos, Oreo, Lotus, trozos de brownie</span></li>
+                  </ol>
+                </div>
+              </div>
+              <div>
+                <h4 class="menu-sub" data-en="Ice cream milkshake">Batido helado</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name" data-en="Small">Pequeño</span><span class="menu-price">4,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Large">Grande</span><span class="menu-price">5,50 €</span></li>
+                </ul>
+                <h4 class="menu-sub menu-sub--gap" data-en="Also with ice cream">También con helado</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name" data-en="Affogato">Café con helado</span><span class="menu-price">3,50 €</span></li>
+                  <li class="menu-row"><span><span class="menu-name" data-en="Extra scoop">Bola de helado extra</span><span class="menu-desc" data-en="with croffles and sweets">en croffles y dulces</span></span><span class="menu-price">1,50 €</span></li>
+                </ul>
+                <p class="pending menu-note" data-pending="Precios de tarrina y cucurucho">Pendiente: precios de tarrina y cucurucho (no aparecen en la carta).</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------- Cafés ---------- -->
+          <div class="menu-panel" role="tabpanel" id="panel-cafes" aria-labelledby="tab-cafes" data-panel="cafes">
+            <h3 class="menu-panel-title" data-en="Coffee">Cafés</h3>
+            <div class="menu-cols">
+              <div>
+                <h4 class="menu-sub" data-en="Coffee">Café</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name" data-en="Espresso">Espresso / crema</span><span class="menu-price">1,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Double espresso">Solo</span><span class="menu-price">1,60 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Americano</span><span class="menu-price">1,70 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Cortado</span><span class="menu-price">1,70 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Latte">Mitad / nube / sombra</span><span class="menu-price">1,80 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Large latte">Mitad doble</span><span class="menu-price">2,20 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Cappuccino">Capuchino</span><span class="menu-price">2,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Tea">Infusiones</span><span class="menu-price">1,70 €</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="menu-sub" data-en="Specials">Especiales</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name">Colacao</span><span class="menu-price">2,20 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Matcha latte</span><span class="menu-price">2,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Baileys coffee">Café Baileys</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Café bombón</span><span class="menu-price">2,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Carajillo JB</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Carajillo cognac">Carajillo coñac</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Affogato">Café con helado</span><span class="menu-price">3,50 €</span></li>
+                </ul>
+                <h4 class="menu-sub menu-sub--gap"><span data-en="Hot chocolate">Chocolate caliente</span> <span class="badge-new badge-new--inline" data-en="New">Nuevo</span></h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name" data-en="Classic">Clásico</span><span class="menu-price">3 €</span></li>
+                  <li class="menu-row"><span><span class="menu-name" data-en="Cloud chocolate">Chocolate nube</span><span class="menu-desc" data-en="Chocolate, marshmallows and whipped cream">Chocolate, nubes y nata montada</span></span><span class="menu-price">3,70 €</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------- Desayunos ---------- -->
+          <div class="menu-panel" role="tabpanel" id="panel-desayunos" aria-labelledby="tab-desayunos" data-panel="desayunos">
+            <h3 class="menu-panel-title" data-en="Breakfast">Desayunos</h3>
+            <h4 class="menu-sub" data-en="Sandwiches">Bocadillos</h4>
+            <div class="table-wrap">
+              <table class="menu-table">
+                <thead>
+                  <tr>
+                    <th scope="col"><span class="sr-only" data-en="Sandwich">Bocadillo</span></th>
+                    <th scope="col" data-en="White bread">Pitufo blanco</th>
+                    <th scope="col" data-en="Multigrain / mollete">Multicereal o mollete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row"><span class="menu-name" data-en="Olive oil &amp; tomato">Aceite y tomate</span></th><td>1,70 €</td><td>2,10 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name" data-en="Butter &amp; jam">Mantequilla y mermelada</span></th><td>1,80 €</td><td>2,20 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name" data-en="Cooked ham / sausage / turkey">Jamón york / salchichón / pavo</span></th><td>2 €</td><td>2,40 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name" data-en="Serrano ham">Jamón serrano</span></th><td>2,10 €</td><td>2,50 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name">Catalana</span><span class="menu-desc" data-en="Olive oil, tomato and Serrano ham">Aceite, tomate y jamón serrano</span></th><td>2,20 €</td><td>2,70 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name">Sobrasada</span></th><td>1,80 €</td><td>2,20 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name" data-en="Manchego cheese">Solo manchego</span></th><td>2,30 €</td><td>2,70 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name">Mixto</span><span class="menu-desc" data-en="Cooked ham, sausage or turkey + Edam cheese">York, salchichón o pavo + queso Edam</span></th><td>2,20 €</td><td>2,70 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name">Mixto serrano</span><span class="menu-desc" data-en="Serrano ham + Edam cheese">Serrano + Edam</span></th><td>2,30 €</td><td>2,90 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name">Mixto manchego</span><span class="menu-desc" data-en="Cooked ham, sausage or turkey + Manchego cheese">York, salchichón o pavo + queso manchego</span></th><td>2,70 €</td><td>3,20 €</td></tr>
+                  <tr><th scope="row"><span class="menu-name" data-en="Tuna">Atún vegetal</span><span class="menu-desc" data-en="Tuna, lettuce and tomato">Atún, lechuga y tomate</span></th><td>2,40 €</td><td>3,20 €</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h4 class="menu-sub menu-sub--gap"><span data-en="Toasts">Tostas</span> <span class="badge-new badge-new--inline" data-en="New">Nuevo</span></h4>
+            <ul class="menu-list menu-list--wide">
+              <li class="menu-row"><span><span class="menu-name">Serrana</span><span class="menu-desc" data-en="Olive oil, avocado, Serrano ham and seeds">Aceite, aguacate, jamón serrano y semillas</span></span><span class="menu-price">4,80 €</span></li>
+              <li class="menu-row"><span><span class="menu-name">Hummus</span><span class="menu-desc" data-en="Hummus, boiled egg, confit tomatoes, greens and balsamic vinegar">Hummus, huevo cocido, tomates confitados, hojas verdes y vinagre balsámico</span></span><span class="menu-price">4,50 €</span></li>
+            </ul>
+          </div>
+
+          <!-- ---------- Croffles ---------- -->
+          <div class="menu-panel" role="tabpanel" id="panel-croffles" aria-labelledby="tab-croffles" data-panel="croffles">
+            <h3 class="menu-panel-title">Croffles</h3>
+            <p class="menu-intro"><span data-en="A waffle made with croissant dough.">Gofre hecho con masa de croissant.</span> <span class="badge-new badge-new--inline" data-en="New">Nuevo</span></p>
+            <div class="menu-cols">
+              <div>
+                <h4 class="menu-sub" data-en="Classics">Clásicos</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name">Nutella</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Dulce de leche</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="White / dark chocolate sauce">Sirope chocolate blanco / negro</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Caramel / salted caramel">Caramelo / caramelo salado</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Lotus sauce">Crema Lotus</span><span class="menu-price">4,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Pistachio sauce">Crema pistacho</span><span class="menu-price">4,50 €</span></li>
+                </ul>
+                <h4 class="menu-sub menu-sub--gap" data-en="Our suggestions">Recomendaciones</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span><span class="menu-name">Croffle Sur</span><span class="menu-desc" data-en="Nutella, banana, strawberry and whipped cream">Nutella, plátano, fresa y nata montada</span></span></li>
+                  <li class="menu-row"><span><span class="menu-name">Banana latte</span><span class="menu-desc" data-en="Dulce de leche, banana and coconut">Dulce de leche, plátano y coco</span></span></li>
+                  <li class="menu-row"><span><span class="menu-name" data-en="Pistachio bomba">Pistacho bomba</span><span class="menu-desc" data-en="Pistachio sauce and pistachio pieces">Crema de pistacho y trozos de pistacho</span></span></li>
+                  <li class="menu-row"><span><span class="menu-name" data-en="King Lotus">Rey del Lotus</span><span class="menu-desc" data-en="Lotus sauce and crushed Lotus biscuit">Crema Lotus y galleta Lotus triturada</span></span></li>
+                </ul>
+                <p class="pending menu-note" data-pending="Precio de los croffles recomendados">Pendiente: precio de las recomendaciones (no aparece en la carta).</p>
+              </div>
+              <div>
+                <h4 class="menu-sub" data-en="Extras">Extras</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name">Oreo / Lotus</span><span class="menu-price">0,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Lacasitos</span><span class="menu-price">0,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Pistachio">Pistacho</span><span class="menu-price">1 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Banana / strawberry">Plátano / fresa</span><span class="menu-price">1 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Walnuts">Nueces</span><span class="menu-price">0,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Whipped cream">Nata montada</span><span class="menu-price">0,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Grated coconut">Coco rallado</span><span class="menu-price">0,30 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Ice cream scoop">Bola de helado</span><span class="menu-price">1,50 €</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- ---------- Dulces ---------- -->
+          <div class="menu-panel" role="tabpanel" id="panel-dulces" aria-labelledby="tab-dulces" data-panel="dulces">
+            <h3 class="menu-panel-title" data-en="Sweets">Dulces</h3>
+            <ul class="menu-list menu-list--wide">
+              <li class="menu-row"><span><span class="menu-name">Alfajor</span><span class="menu-desc" data-en="Chocolate, cornstarch or coconut">Chocolate, maicena o coco</span></span><span class="menu-price">3 €</span></li>
+              <li class="menu-row"><span class="menu-name" data-en="Brownie">Cuadrado brownie</span><span class="menu-price">3,20 €</span></li>
+              <li class="menu-row"><span class="menu-name">Super cookie</span><span class="menu-price">4 €</span></li>
+              <li class="menu-row"><span class="menu-name" data-en="Apple crumble">Crumble de manzana</span><span class="menu-price">4 €</span></li>
+              <li class="menu-row"><span class="menu-name" data-en="Cheesecake with red berries">Tarta de queso con frutos rojos</span><span class="menu-price">4,80 €</span></li>
+              <li class="menu-row"><span class="menu-name" data-en="Pistachio cheesecake">Cheesecake de pistacho</span><span class="menu-price">4,80 €</span></li>
+              <li class="menu-row"><span><span class="menu-name">Marquise</span><span class="menu-desc" data-en="Chocolate cake, Nutella, whipped cream and strawberries">Tarta de chocolate, Nutella, nata y fresas</span></span><span class="menu-price">4,50 €</span></li>
+            </ul>
+            <p class="menu-callout"><svg aria-hidden="true"><use href="#ic-cone"/></svg> <span data-en="Add a scoop of ice cream for only €1.50!">¡Añade una bola de helado por solo 1,50 €!</span></p>
+          </div>
+
+          <!-- ---------- Bebidas ---------- -->
+          <div class="menu-panel" role="tabpanel" id="panel-bebidas" aria-labelledby="tab-bebidas" data-panel="bebidas">
+            <h3 class="menu-panel-title" data-en="Drinks">Bebidas</h3>
+            <div class="menu-cols">
+              <div>
+                <h4 class="menu-sub" data-en="Soft drinks &amp; juices">Refrescos y zumos</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name" data-en="Still water">Agua sin gas</span><span class="menu-price">1,20 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Sparkling water">Agua con gas</span><span class="menu-price">1,40 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Aquarius / Fuze Tea</span><span class="menu-price">2 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Soft drinks">Refrescos</span><span class="menu-price">2,20 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Fresh orange juice">Zumo de naranja natural</span><span class="menu-price">2,30 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Pineapple / peach juice">Zumo de piña / melocotón</span><span class="menu-price">1,20 €</span></li>
+                </ul>
+
+                <div class="menu-feature menu-feature--gap">
+                  <div class="menu-feature-head">
+                    <h4 class="menu-sub">Smoothies</h4>
+                    <span class="menu-price">4,50 €</span>
+                  </div>
+                  <ul class="flavours">
+                    <li data-en="Strawberry &amp; banana">Fresa y plátano</li>
+                    <li data-en="Pineapple &amp; coconut">Piña y coco</li>
+                    <li data-en="Pineapple, papaya &amp; mango">Piña, papaya y mango</li>
+                    <li data-en="Blueberry, blackberry, currant &amp; banana">Arándano, mora, grosella y plátano</li>
+                    <li data-en="Raspberry, blueberry, apple &amp; mango">Frambuesa, arándano, manzana y mango</li>
+                  </ul>
+                </div>
+
+                <h4 class="menu-sub menu-sub--gap" data-en="Beer · Estrella Galicia">Cerveza · Estrella Galicia</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name" data-en="Caña (small)">Caña</span><span class="menu-price">2 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Copa (medium)">Copa</span><span class="menu-price">2,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Jarra (large)">Jarra</span><span class="menu-price">3,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Estrella 330 ml</span><span class="menu-price">2,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Estrella 0,0 / Tostada</span><span class="menu-price">2,60 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Estrella 1906</span><span class="menu-price">2,80 €</span></li>
+                  <li class="menu-row"><span class="menu-name">Tinto de verano</span><span class="menu-price">2,70 €</span></li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="menu-sub" data-en="Liqueurs &amp; mixed drinks">Licores y combinados</h4>
+                <ul class="menu-list">
+                  <li class="menu-row"><span class="menu-name">Baileys</span><span class="menu-price">6 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Pacharán / herbal liqueur">Pacharán / licor de hierbas</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Sweet anise">Anís dulce</span><span class="menu-price">3,50 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Cognac Grand Marnier">Coñac Grand Marnier</span><span class="menu-price">4 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Larios &amp; tonic">Larios tónica</span><span class="menu-price">6 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Larios 12 &amp; tonic">Larios 12 tónica</span><span class="menu-price">7 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Beefeater &amp; tonic">Beefeater tónica</span><span class="menu-price">7 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Seagram's &amp; tonic">Seagram's tónica</span><span class="menu-price">7 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Rum Barceló &amp; Coke">Roncola Barceló</span><span class="menu-price">7 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Rum Brugal &amp; Coke">Roncola Brugal</span><span class="menu-price">6 €</span></li>
+                  <li class="menu-row"><span class="menu-name" data-en="Whisky JB &amp; Coke">Whiscola JB</span><span class="menu-price">6 €</span></li>
+                  <li class="menu-row"><span class="menu-name">J. Walker Red Label</span><span class="menu-price">7 €</span></li>
+                  <li class="menu-row"><span class="menu-name">J. Walker Black Label</span><span class="menu-price">9 €</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <p class="menu-foot">
+            <svg aria-hidden="true"><use href="#ic-info"/></svg>
+            <span data-en="Any allergies or intolerances? Ask our team for the allergen information of each product.">¿Tienes alguna alergia o intolerancia? Pregunta a nuestro equipo por la información de alérgenos de cada producto.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Opiniones (reseñas reales de Google) ===== -->
+    <section class="section" id="opiniones" aria-labelledby="opiniones-title">
+      <div class="container">
+        <header class="section-head section-head--split reveal">
+          <div>
+            <p class="eyebrow" data-en="Reviews">Opiniones</p>
+            <h2 id="opiniones-title" data-en-html="What people&lt;br&gt;&lt;em&gt;say about us&lt;/em&gt;.">Lo que dicen<br><em>de nosotros</em>.</h2>
+          </div>
+          <a class="btn btn-ghost" href="https://www.google.es/maps/place/Sur+-+Helado+Cafe/@36.7171146,-4.4614703,17z/data=!4m8!3m7!1s0xd72f73aa2c39bc7:0x107b341df85c6883!8m2!3d36.7174641!4d-4.4621504!9m1!1b1!16s%2Fg%2F11m5c_n0s_?hl=es" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#ic-google"/></svg> <span data-en="See all on Google">Ver todas en Google</span>
+          </a>
+        </header>
+
+        <div class="reviews">
+          <figure class="review review--big reveal">
+            <svg class="review-mark" aria-hidden="true"><use href="#ic-quote"/></svg>
+            <blockquote lang="es"><p>Increíble heladería y cafetería familiar! La comida y los helados están absolutamente deliciosos, todo sabe fresco y preparado con mucho cuidado. Pero lo que realmente hace especial este lugar es la hospitalidad y el excelente servicio al cliente. La familia que lo maneja es muy amable, acogedora y atenta; te hacen sentir bienvenido desde el momento en que entras. Se nota que ponen mucho amor en lo que hacen. Lo recomiendo muchísimo si estás por la zona. Sin duda volveremos!</p></blockquote>
+            <figcaption><svg aria-hidden="true"><use href="#ic-google"/></svg> <span data-en="Google review">Reseña en Google</span></figcaption>
+          </figure>
+          <figure class="review reveal">
+            <svg class="review-mark" aria-hidden="true"><use href="#ic-quote"/></svg>
+            <blockquote lang="es"><p>Pedimos unos cafés y un brownie con pistacho y estaba todo exquisito. El trato super atento, todo el personal es muy simpático. Sin duda va a ser nuestra cafetería de confianza</p></blockquote>
+            <figcaption><svg aria-hidden="true"><use href="#ic-google"/></svg> <span data-en="Google review">Reseña en Google</span></figcaption>
+          </figure>
+          <figure class="review reveal">
+            <svg class="review-mark" aria-hidden="true"><use href="#ic-quote"/></svg>
+            <blockquote lang="es"><p>Ya he ido un par de veces y no me decepciona, sus helados deliciosos, cremositos. Sirven muy buena cantidad y sus dueños son muy amables con los clientes! Se ha vuelto mi heladería favorita tanto por la calidad/precio como su ambiente</p></blockquote>
+            <figcaption><svg aria-hidden="true"><use href="#ic-google"/></svg> <span data-en="Google review">Reseña en Google</span></figcaption>
+          </figure>
+          <figure class="review reveal">
+            <svg class="review-mark" aria-hidden="true"><use href="#ic-quote"/></svg>
+            <blockquote lang="en"><p>We had breakfast here with a double dessert and everything was perfect. My integral pitufo had amazing bread and ingredients (I ate it too fast so I didn’t take a picture), and then we ordered croffle and tried their ice cream Milhojas and decided to combine it with croffle and it was amazing! My big recommendation for this place.</p></blockquote>
+            <figcaption><svg aria-hidden="true"><use href="#ic-google"/></svg> <span data-en="Google review">Reseña en Google (en inglés)</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="review-cta reveal">
+          <div>
+            <h3 data-en="Been to SUR?">¿Ya nos conoces?</h3>
+            <p data-en="Your Google review helps more people in the neighbourhood find us.">Tu opinión en Google ayuda a que más gente del barrio nos encuentre.</p>
+          </div>
+          <a class="btn btn-light" href="https://www.google.es/maps/place/Sur+-+Helado+Cafe/@36.7171146,-4.4614703,17z/data=!4m8!3m7!1s0xd72f73aa2c39bc7:0x107b341df85c6883!8m2!3d36.7174641!4d-4.4621504!9m1!1b1!16s%2Fg%2F11m5c_n0s_?hl=es" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#ic-star"/></svg> <span data-en="Leave a review">Dejar una reseña</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== El local ===== -->
+    <section class="section section--tint" id="local" aria-labelledby="local-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-en="The place">El local</p>
+          <h2 id="local-title" data-en-html="Inside and &lt;em&gt;out&lt;/em&gt;.">Dentro y <em>fuera</em>.</h2>
+        </header>
+
+        <div class="gallery">
+          <figure class="g-item g-a reveal"><img src="assets/img/fachada.jpg" width="1217" height="778" loading="lazy" decoding="async" alt="Fachada y terraza de SUR Helado | Café en la calle Pirandello" data-en-alt="SUR Helado | Café storefront and terrace on Calle Pirandello"></figure>
+          <figure class="g-item g-b reveal"><img src="assets/img/interior.jpg" width="672" height="792" loading="lazy" decoding="async" alt="Interior del local: barra con taburetes, lámparas colgantes y la puerta abierta a la terraza" data-en-alt="Inside: a counter with stools, pendant lamps and the door open to the terrace"></figure>
+          <figure class="g-item g-c reveal"><img src="assets/img/vitrina-sabores.jpg" width="215" height="280" loading="lazy" decoding="async" alt="Detalle de la vitrina con los sabores Choco Dubai, Lemon Pie y pistacho" data-en-alt="Close-up of the display case with Choco Dubai, Lemon Pie and pistachio flavours"></figure>
+          <figure class="g-item g-d reveal"><img src="assets/img/croffle-lacasitos.jpg" width="215" height="280" loading="lazy" decoding="async" alt="Croffle con chocolate y Lacasitos" data-en-alt="Croffle with chocolate and Lacasitos"></figure>
+          <figure class="g-item g-e reveal"><img src="assets/img/tarrinas-perro.jpg" width="215" height="280" loading="lazy" decoding="async" alt="Dos tarrinas de helado de SUR en la terraza, con un perro mirando" data-en-alt="Two SUR ice cream tubs on the terrace, with a dog looking on"></figure>
+          <a class="g-item g-ig reveal" href="https://www.instagram.com/surheladocafe/" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#ic-instagram"/></svg>
+            <span class="g-ig-text"><span data-en="More photos on Instagram">Más fotos en Instagram</span> <strong>@surheladocafe</strong></span>
+            <svg class="g-ig-arrow" aria-hidden="true"><use href="#ic-arrow"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Visítanos ===== -->
+    <section class="section" id="visitanos" aria-labelledby="visitanos-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-en="Visit us">Visítanos</p>
+          <h2 id="visitanos-title" data-en-html="See you in &lt;em&gt;Teatinos&lt;/em&gt;.">Te esperamos en <em>Teatinos</em>.</h2>
+        </header>
+
+        <div class="visit-grid">
+          <div class="card hours-card reveal" id="horario">
+            <div class="card-head">
+              <svg aria-hidden="true"><use href="#ic-clock"/></svg>
+              <h3 data-en="Opening hours">Horario</h3>
+              <span class="open-badge" data-open-badge hidden><span class="open-dot"></span><span data-open-text></span></span>
+            </div>
+            <!-- data-hours: "09:00-23:00", varios tramos separados por coma, o "cerrado" -->
+            <table class="hours">
+              <caption class="sr-only" data-en="Opening hours">Horario de apertura</caption>
+              <tbody>
+                <tr data-day="1" data-hours="cerrado" class="is-closed"><th scope="row" data-en="Monday">Lunes</th><td data-en="Closed">Cerrado</td></tr>
+                <tr data-day="2" data-hours="09:00-23:00"><th scope="row" data-en="Tuesday">Martes</th><td>9:00 – 23:00</td></tr>
+                <tr data-day="3" data-hours="09:00-23:00"><th scope="row" data-en="Wednesday">Miércoles</th><td>9:00 – 23:00</td></tr>
+                <tr data-day="4" data-hours="09:00-23:00"><th scope="row" data-en="Thursday">Jueves</th><td>9:00 – 23:00</td></tr>
+                <tr data-day="5" data-hours="09:00-23:00"><th scope="row" data-en="Friday">Viernes</th><td>9:00 – 23:00</td></tr>
+                <tr data-day="6" data-hours="11:00-24:00"><th scope="row" data-en="Saturday">Sábado</th><td>11:00 – 24:00</td></tr>
+                <tr data-day="7" data-hours="11:00-20:00"><th scope="row" data-en="Sunday">Domingo</th><td>11:00 – 20:00</td></tr>
+              </tbody>
+            </table>
+            <p class="card-note pending" data-pending="Horario en festivos y cambios de temporada">Pendiente: ¿cambia el horario en festivos o entre verano e invierno?</p>
+          </div>
+
+          <div class="card map-card reveal" id="ubicacion">
+            <div class="card-head">
+              <svg aria-hidden="true"><use href="#ic-pin"/></svg>
+              <h3 data-en="Location">Ubicación</h3>
+            </div>
+            <address class="address">
+              <strong>Calle Pirandello, 8</strong>
+              Teatinos-Universidad · 29010 Málaga
+            </address>
+
+            <div class="map" data-map>
+              <div class="map-placeholder" data-map-placeholder>
+                <span class="map-pin" aria-hidden="true"><svg><use href="#ic-pin"/></svg></span>
+                <button class="btn btn-small btn-green" type="button" data-map-load data-en="Show map">Mostrar mapa</button>
+                <p class="map-note" data-en="Showing the map loads Google Maps, which may use cookies.">Al mostrar el mapa se carga Google Maps, que puede usar cookies.</p>
+              </div>
+            </div>
+
+            <div class="map-actions">
+              <a class="btn btn-green" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle%20Pirandello%2C%208%2C%2029010%20M%C3%A1laga" target="_blank" rel="noopener">
+                <span data-en="Get directions">Cómo llegar</span> <svg aria-hidden="true"><use href="#ic-arrow"/></svg>
+              </a>
+              <a class="btn btn-ghost" href="https://www.google.es/maps/place/Sur+-+Helado+Cafe/@36.7171146,-4.4614703,17z/data=!4m8!3m7!1s0xd72f73aa2c39bc7:0x107b341df85c6883!8m2!3d36.7174641!4d-4.4621504!16s%2Fg%2F11m5c_n0s_?hl=es" target="_blank" rel="noopener" data-en="View on Google Maps">Ver en Google Maps</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card info-card reveal">
+          <div class="card-head">
+            <svg aria-hidden="true"><use href="#ic-info"/></svg>
+            <h3 data-en="Good to know">Información práctica</h3>
+          </div>
+          <ul class="chips">
+            <li class="chip chip--ok" data-en="Terrace">Terraza</li>
+          </ul>
+          <p class="card-note pending" data-pending="Otros servicios">Pendiente: confirmar si hay para llevar, Wi‑Fi, pago con tarjeta, reparto a domicilio (Glovo, Uber Eats, Just Eat…), opciones sin lactosa, veganas, sin azúcar o sin gluten, acceso en silla de ruedas, mascotas en la terraza o tarjeta de fidelidad. Solo se mostrarán los que sean verdad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section class="section section--tint" id="contacto" aria-labelledby="contacto-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow" data-en="Contact">Contacto</p>
+          <h2 id="contacto-title" data-en-html="Call us, message us&lt;br&gt;&lt;em&gt;or just drop by&lt;/em&gt;.">Llámanos, escríbenos<br><em>o pásate</em>.</h2>
+        </header>
+
+        <div class="contact-grid">
+          <!-- Cuando haya teléfono: cambiar el <div> por <a href="tel:+34XXXXXXXXX"> y quitar "pending" -->
+          <div class="contact-card pending reveal" data-pending="Teléfono">
+            <svg aria-hidden="true"><use href="#ic-phone"/></svg>
+            <span class="contact-label" data-en="Phone">Teléfono</span>
+            <span class="contact-value">Pendiente</span>
+          </div>
+          <a class="contact-card reveal" href="https://www.instagram.com/surheladocafe/" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#ic-instagram"/></svg>
+            <span class="contact-label">Instagram</span>
+            <span class="contact-value">@surheladocafe</span>
+          </a>
+          <a class="contact-card reveal" href="https://www.google.es/maps/place/Sur+-+Helado+Cafe/@36.7171146,-4.4614703,17z/data=!4m8!3m7!1s0xd72f73aa2c39bc7:0x107b341df85c6883!8m2!3d36.7174641!4d-4.4621504!16s%2Fg%2F11m5c_n0s_?hl=es" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#ic-google"/></svg>
+            <span class="contact-label">Google Maps</span>
+            <span class="contact-value">Sur - Helado Cafe</span>
+          </a>
+          <div class="contact-card pending reveal" data-pending="WhatsApp o email (si los usáis)">
+            <svg aria-hidden="true"><use href="#ic-chat"/></svg>
+            <span class="contact-label">WhatsApp / email</span>
+            <span class="contact-value">Pendiente</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Pie ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="footer-word" aria-hidden="true">SUR</span>
+        <p>Helado | Café</p>
+      </div>
+      <div>
+        <h2 class="footer-title" data-en="Where">Dónde</h2>
+        <p>Calle Pirandello, 8<br>Teatinos-Universidad<br>29010 Málaga</p>
+      </div>
+      <div>
+        <h2 class="footer-title" data-en="When">Cuándo</h2>
+        <p data-en-html="Tue–Fri 9:00–23:00&lt;br&gt;Sat 11:00–24:00&lt;br&gt;Sun 11:00–20:00&lt;br&gt;Mon closed">Mar–vie 9:00–23:00<br>Sáb 11:00–24:00<br>Dom 11:00–20:00<br>Lun cerrado</p>
+      </div>
+      <div>
+        <h2 class="footer-title" data-en="Explore">Navega</h2>
+        <ul class="footer-nav">
+          <li><a href="#carta" data-en="Menu">Carta</a></li>
+          <li><a href="#opiniones" data-en="Reviews">Opiniones</a></li>
+          <li><a href="#ubicacion" data-en="Location">Ubicación</a></li>
+          <li><a href="https://www.instagram.com/surheladocafe/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-year>2026</span> SUR Helado | Café</p>
+      <p class="pending" data-pending="Aviso legal y política de privacidad (datos del titular)">Aviso legal · Privacidad: pendiente</p>
+    </div>
+  </footer>
+
+  <!-- Aviso de borrador: cuenta los datos pendientes; desaparece cuando no queda ninguno. -->
+  <button class="draft-pill" type="button" data-draft-pill hidden>
+    <span class="draft-dot" aria-hidden="true"></span>
+    <span>Borrador · <strong data-draft-count>0</strong> datos pendientes</span>
+  </button>
+</body>
+</html>
